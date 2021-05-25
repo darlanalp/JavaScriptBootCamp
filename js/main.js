@@ -1,3 +1,24 @@
+function clicou(){    
+    document.getElementById("agradecimento").innerHTML = "<b> legal </b>";
+}
+function redirecionar(){
+ window.open("https://globallab.org/en/#.YKxVlqhKjIU");
+}
+
+function  trocar(elemento){
+    elemento.innerHTML = "<b> Trocou legal </b>";    
+}
+
+function  voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui";    
+}
+function load(){
+    alert("Carregou");
+}
+function selecionar(elemento){
+    alert(elemento.value);
+}
+/*
 function soma(n1, n2){
     return n1+n2;
 }
@@ -8,7 +29,7 @@ function validaIdade(idade){
 
 var idade = prompt("Qual sua idade");
 alert(validaIdade(idade));
-
+*/
 /*var data = new Date();
 alert(data.getMonth()+1);
 alert("Minuto:"+data.getMinutes());
